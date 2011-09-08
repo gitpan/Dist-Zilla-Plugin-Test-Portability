@@ -4,7 +4,7 @@ use warnings;
 
 package Dist::Zilla::Plugin::Test::Portability;
 # ABSTRACT: Release tests for portability
-our $VERSION = 'v2.0.0'; # VERSION
+our $VERSION = '2.0.1'; # VERSION
 use Moose;
 extends 'Dist::Zilla::Plugin::InlineFiles';
 with 'Dist::Zilla::Role::FileMunger';
@@ -54,7 +54,7 @@ Dist::Zilla::Plugin::Test::Portability - Release tests for portability
 
 =head1 VERSION
 
-version v2.0.0
+version 2.0.1
 
 =head1 SYNOPSIS
 
@@ -84,6 +84,8 @@ Inserts the given options into the generated test file.
 __END__
 
 =head1 AVAILABILITY
+
+The project homepage is L<http://metacpan.org/release/Dist-Zilla-Plugin-Test-Portability/>.
 
 The latest version of this module is available from the Comprehensive Perl
 Archive Network (CPAN). Visit L<http://www.perl.com/CPAN/> to find a CPAN

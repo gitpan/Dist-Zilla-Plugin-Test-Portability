@@ -6,6 +6,7 @@ META.json
 META.yml
 Makefile.PL
 README
+dist.ini
 lib/Dist/Zilla/Plugin/PortabilityTests.pm
 lib/Dist/Zilla/Plugin/Test/Portability.pm
 t/00-compile.t
