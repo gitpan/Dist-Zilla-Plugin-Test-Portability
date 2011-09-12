@@ -4,7 +4,7 @@ use warnings;
 
 package Dist::Zilla::Plugin::Test::Portability;
 # ABSTRACT: Release tests for portability
-our $VERSION = '2.0.1'; # VERSION
+our $VERSION = '2.0.2'; # VERSION
 use Moose;
 extends 'Dist::Zilla::Plugin::InlineFiles';
 with 'Dist::Zilla::Role::FileMunger';
@@ -54,13 +54,13 @@ Dist::Zilla::Plugin::Test::Portability - Release tests for portability
 
 =head1 VERSION
 
-version 2.0.1
+version 2.0.2
 
 =head1 SYNOPSIS
 
 In C<dist.ini>:
 
-    [PortabilityTests]
+    [Test::Portability]
     ; you can optionally specify test options
     options = test_dos_length = 1, use_file_find = 0
 

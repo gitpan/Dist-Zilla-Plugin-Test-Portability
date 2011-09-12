@@ -39,4 +39,4 @@ resources:
   bugtracker: https://github.com/doherty/Dist-Zilla-Plugin-Test-Portability/issues
   homepage: http://metacpan.org/release/Dist-Zilla-Plugin-Test-Portability/
   repository: git://github.com/doherty/Dist-Zilla-Plugin-Test-Portability.git
-version: 2.0.1
+version: 2.0.2
