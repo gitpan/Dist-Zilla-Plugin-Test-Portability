@@ -6,7 +6,7 @@
       "Mike Doherty <doherty@cpan.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 4.300000, CPAN::Meta::Converter version 2.112150",
+   "generated_by" : "Dist::Zilla version 4.300018, CPAN::Meta::Converter version 2.120630",
    "license" : [
       "perl_5"
    ],
@@ -34,25 +34,25 @@
       },
       "runtime" : {
          "requires" : {
-            "Dist::Zilla::Plugin::InlineFiles" : 0,
-            "Dist::Zilla::Role::FileMunger" : 0,
-            "Moose" : 0,
-            "Test::Portability::Files" : 0,
+            "Dist::Zilla::Plugin::InlineFiles" : "0",
+            "Dist::Zilla::Role::FileMunger" : "0",
+            "Moose" : "0",
+            "Test::Portability::Files" : "0",
             "perl" : "5.008",
-            "strict" : 0,
-            "warnings" : 0
+            "strict" : "0",
+            "warnings" : "0"
          }
       },
       "test" : {
          "requires" : {
-            "File::Find" : 0,
-            "File::Path" : 0,
-            "File::Temp" : 0,
-            "Moose::Autobox" : 0,
-            "Test::DZil" : 0,
+            "File::Find" : "0",
+            "File::Path" : "0",
+            "File::Temp" : "0",
+            "Moose::Autobox" : "0",
+            "Test::DZil" : "0",
             "Test::More" : "0.96",
-            "Test::Output" : 0,
-            "autodie" : 0
+            "Test::Output" : "0",
+            "autodie" : "0"
          }
       }
    },
@@ -68,6 +68,6 @@
          "web" : "https://github.com/doherty/Dist-Zilla-Plugin-Test-Portability"
       }
    },
-   "version" : "2.0.2"
+   "version" : "2.000003"
 }
 

@@ -18,7 +18,7 @@ configure_requires:
   ExtUtils::MakeMaker: 6.30
   Module::Build: 0.3601
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.300000, CPAN::Meta::Converter version 2.112150'
+generated_by: 'Dist::Zilla version 4.300018, CPAN::Meta::Converter version 2.120630'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -39,4 +39,4 @@ resources:
   bugtracker: https://github.com/doherty/Dist-Zilla-Plugin-Test-Portability/issues
   homepage: http://metacpan.org/release/Dist-Zilla-Plugin-Test-Portability/
   repository: git://github.com/doherty/Dist-Zilla-Plugin-Test-Portability.git
-version: 2.0.2
+version: 2.000003
