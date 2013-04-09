@@ -4,7 +4,7 @@ use warnings;
 
 package Dist::Zilla::Plugin::PortabilityTests;
 # ABSTRACT: (DEPRECATED) Release tests for portability
-our $VERSION = '2.000003'; # VERSION
+our $VERSION = '2.000004'; # VERSION
 use Moose;
 extends 'Dist::Zilla::Plugin::Test::Portability';
 
@@ -16,6 +16,7 @@ before register_component => sub {
 1;
 
 __END__
+
 =pod
 
 =encoding utf-8
@@ -26,7 +27,7 @@ Dist::Zilla::Plugin::PortabilityTests - (DEPRECATED) Release tests for portabili
 
 =head1 VERSION
 
-version 2.000003
+version 2.000004
 
 =head1 SYNOPSIS
 
@@ -83,4 +84,3 @@ This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-

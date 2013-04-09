@@ -4,7 +4,7 @@ use warnings;
 
 package Dist::Zilla::Plugin::Test::Portability;
 # ABSTRACT: Release tests for portability
-our $VERSION = '2.000003'; # VERSION
+our $VERSION = '2.000004'; # VERSION
 use Moose;
 extends 'Dist::Zilla::Plugin::InlineFiles';
 with 'Dist::Zilla::Role::FileMunger';
@@ -42,8 +42,6 @@ __PACKAGE__->meta->make_immutable;
 no Moose;
 1;
 
-
-
 =pod
 
 =encoding utf-8
@@ -54,7 +52,7 @@ Dist::Zilla::Plugin::Test::Portability - Release tests for portability
 
 =head1 VERSION
 
-version 2.000003
+version 2.000004
 
 =head1 SYNOPSIS
 
@@ -128,10 +126,12 @@ the same terms as the Perl 5 programming language system itself.
 
 =cut
 
-
 __DATA__
 ___[ xt/release/portability.t ]___
 #!perl
+
+use strict;
+use warnings;
 
 use Test::More;
 
