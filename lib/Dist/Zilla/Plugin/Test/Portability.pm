@@ -4,7 +4,7 @@ use warnings;
 
 package Dist::Zilla::Plugin::Test::Portability;
 # ABSTRACT: Release tests for portability
-our $VERSION = '2.000004'; # VERSION
+our $VERSION = '2.000005'; # VERSION
 use Moose;
 extends 'Dist::Zilla::Plugin::InlineFiles';
 with 'Dist::Zilla::Role::FileMunger';
@@ -52,7 +52,7 @@ Dist::Zilla::Plugin::Test::Portability - Release tests for portability
 
 =head1 VERSION
 
-version 2.000004
+version 2.000005
 
 =head1 SYNOPSIS
 
